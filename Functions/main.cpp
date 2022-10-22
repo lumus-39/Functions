@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 int Add(int a, int b); 
@@ -10,14 +10,14 @@ void main()
 {
 	setlocale(LC_ALL, "Rus");
 	int a, b;
-	cout << "Введите два числа: "; cin >> a >> b;
-	int c = Add(a, b); // использование ф-ции
+	cout << "Р’РІРµРґРёС‚Рµ РґРІР° С‡РёСЃР»Р°: "; cin >> a >> b;
+	int c = Add(a, b); // РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ С„-С†РёРё
 	cout << a << " + " << b << " = " << c << endl;
 	cout << a << " - " << b << " = " << Sub(a, b) << endl;
 	cout << a << " * " << b << " = " << Mul(a, b) << endl;
 	cout << a << " / " << b << " = " << Div(a, b) << endl;
 }
-	int Add(int a, int b) //это реализация функции - определение 
+	int Add(int a, int b) //СЌС‚Рѕ СЂРµР°Р»РёР·Р°С†РёСЏ С„СѓРЅРєС†РёРё - РѕРїСЂРµРґРµР»РµРЅРёРµ 
 	{
 		int c = a + b;
 		return c;
