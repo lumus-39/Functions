@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 
 using namespace std;
 
@@ -89,19 +89,19 @@ void main()
 	Print(arr, n);
 	Sort(arr, n);
 	Print(arr, n);
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà: " << Sum(arr, n) << endl;
-	cout << "Ñðåäíåå àðèôìåòè÷åñêîå: " << Avg(arr, n) << endl;
-	cout << "Ìèíèìàëüíîå çíà÷åíèå: " << minValueIn(arr, n) << endl;
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå: " << maxValueIn(arr, n) << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Sum(arr, n) << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ: " << Avg(arr, n) << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: " << minValueIn(arr, n) << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: " << maxValueIn(arr, n) << endl;
 
 
-	//int number_of_shifts; // êîëè÷åñòâî ñäâèãîâ
+	//int number_of_shifts; // ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ´Ð²Ð¸Ð³Ð¾Ð²
 
-	//cout << "Ââåäèòå êîëè÷åñòâî ñäâèãîâ: "; cin >> number_of_shifts;
+	//cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ´Ð²Ð¸Ð³Ð¾Ð²: "; cin >> number_of_shifts;
 	//shiftLeft(arr, n, number_of_shifts);
 	//Print(arr, n);
 
-	//cout << "Ââåäèòå êîëè÷åñòâî ñäâèãîâ: "; cin >> number_of_shifts;
+	//cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ´Ð²Ð¸Ð³Ð¾Ð²: "; cin >> number_of_shifts;
 	//shiftRight(arr, n, number_of_shifts);
 	//Print(arr, n);
 
@@ -111,8 +111,8 @@ void main()
 	Print(brr, SIZE);
 	Sort(brr, SIZE);
 	Print(brr, SIZE);
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà: " << Sum(brr, SIZE) << endl;
-	cout << "Ñðåäíåå-àðèôìåòè÷åñêîå ýëåìåíòîâ ìàññèâà: " << Avg(brr, SIZE) << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Sum(brr, SIZE) << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ-Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Avg(brr, SIZE) << endl;
 
 	const int D_SIZE = 5;
 	double d_arr[D_SIZE];
@@ -123,18 +123,18 @@ void main()
 	int i_arr_2[ROWS][COLS];
 	FillRand(i_arr_2, ROWS, COLS);
 	Print(i_arr_2, ROWS, COLS);
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà: " << Sum(i_arr_2, ROWS, COLS) << endl;
-	cout << "Ñðåäíåå àðèôìåòè÷åñêîå ýëåìåíòîâ ìàññèâà: " << Avg(i_arr_2, ROWS, COLS) << endl;
-	cout << "Ìèíèìàëüíîå çíà÷åíèå: " << minValueIn(i_arr_2, ROWS, COLS) << endl;
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå: " << maxValueIn(i_arr_2, ROWS, COLS) << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Sum(i_arr_2, ROWS, COLS) << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Avg(i_arr_2, ROWS, COLS) << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: " << minValueIn(i_arr_2, ROWS, COLS) << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: " << maxValueIn(i_arr_2, ROWS, COLS) << endl;
 
 	double d_arr_2[ROWS][COLS];
 	FillRand(d_arr_2, ROWS, COLS);
 	Print(d_arr_2, ROWS, COLS);
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà: " << Sum(d_arr_2, ROWS, COLS) << endl;
-	cout << "Ñðåäíåå àðèôìåòè÷åñêîå ýëåìåíòîâ ìàññèâà: " << Avg(d_arr_2, ROWS, COLS) << endl;
-	cout << "Ìèíèìàëüíîå çíà÷åíèå: " << minValueIn(d_arr_2, ROWS, COLS) << endl;
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå: " << maxValueIn(d_arr_2, ROWS, COLS) << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Sum(d_arr_2, ROWS, COLS) << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Avg(d_arr_2, ROWS, COLS) << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: " << minValueIn(d_arr_2, ROWS, COLS) << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: " << maxValueIn(d_arr_2, ROWS, COLS) << endl;
 
 
 }
@@ -702,7 +702,7 @@ void shiftLeft(float arr[], int n, int number_of_shifts)
 	}
 }
 
-// ñî ñäâèãàìè íó íèêàê(
+// ÑÐ¾ ÑÐ´Ð²Ð¸Ð³Ð°Ð¼Ð¸ Ð½Ñƒ Ð½Ð¸ÐºÐ°Ðº(
 
 //void shiftLeft(int arr[ROWS][COLS], const int ROWS, const int COLS, int number_of_shifts)
 //{
